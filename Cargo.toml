@@ -1,0 +1,5 @@
+[package]
+
+name = "sanitizeutf8"
+version = "0.0.1"
+authors = ["Michishige Kaito <me@mkaito.com>"]
