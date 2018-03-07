@@ -10,3 +10,10 @@ something that I could put in a unix pipe that could clean up the stream. Turns
 out Rust's IO does this for me already, so all I'm doing is reading input
 character-wise, and writing them right back out, ignoring any errors. Errors in
 this case include invalid UTF8, so there's that. Thanks Rust!
+
+
+## Build
+
+Inside the project root directory run:
+
+`$ cargo build`
