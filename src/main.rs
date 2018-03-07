@@ -1,7 +1,9 @@
+#![feature(io)]
 use std::io;
+use std::io::Read;
 
 fn main() {
-    let mut reader = io::stdin();
+    let reader = io::stdin();
     for c in reader.lock().chars() {
         match c {
             Ok(character) => print!("{}", character),
